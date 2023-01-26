@@ -4,5 +4,5 @@
 Wir helfen wo wir können 
 
 ## Autoren
-*Joelina und 
-Kara
+* Du und 
+* ich
