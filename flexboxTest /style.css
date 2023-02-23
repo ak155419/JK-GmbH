@@ -1,0 +1,22 @@
+body {
+
+}
+
+header{
+    background-color:aqua
+}
+aside{
+    background-color: lawngreen;
+
+.container {
+        display:flex;
+    }
+    
+}
+main{
+    background-color: deeppink;
+}
+Footer{
+    background-color: orange;
+}
+
