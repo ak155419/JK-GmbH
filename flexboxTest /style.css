@@ -3,14 +3,12 @@ body {
 }
 
 header{
-    background-color:aqua
+    border-radius: 50px;
+    box-sizing: 100px;
+    background-color: aqua
 }
 aside{
     background-color: lawngreen;
-
-.container {
-        display:flex;
-    }
     
 }
 main{
@@ -19,4 +17,16 @@ main{
 Footer{
     background-color: orange;
 }
+body {
+    font-family: arial
+}
+.Haupteil {
+    display: flex;
+    justify-content: content; 
+}
 
+.Haupteil{
+    justify-content: space-around;
+}
+    
+   
