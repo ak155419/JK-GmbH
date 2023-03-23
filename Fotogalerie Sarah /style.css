@@ -14,17 +14,7 @@ img{
 .hide {
     display: none;
 }
-/* .img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: none;
-    background: slateblue;
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1;
-  } */
+
 
   img {
     transition: all 450ms;

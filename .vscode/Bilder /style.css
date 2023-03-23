@@ -1,0 +1,38 @@
+.Haupteil {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 768px){
+    .container img{
+        border-radius: 50%;
+    }
+}
+header{
+    background-color: azure;
+}
+/* header{
+    border-radius: 50px;
+    background-color: rgba(218, 208, 151, 0.281)
+} */
+
+.Haupteil {
+    font-family: Georgia;
+}
+
+.Haupteil img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    border: 2px rgb(20, 91, 223);
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
+}
+.Haupteil img:hover {
+    transform: scale(1.1);
+    border-color: rgb(91, 171, 218)
+}
+
+    
+
+
