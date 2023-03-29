@@ -1,20 +1,25 @@
 .Haupteil {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
-@media screen and (max-width: 768px){
-    .container img{
-        border-radius: 50%;
+@media screen and (max-width: 768px) {
+     .container img {
+        border-radius: 50%; 
+
     }
 }
-header{
-    background-color: azure;
+
+footer {
+    border-radius: 20px;
+    background-color: rgb(204, 118, 185);
 }
-/* header{
-    border-radius: 50px;
-    background-color: rgba(218, 208, 151, 0.281)
-} */
+
+main {
+    border-radius: 20px;
+    background-color: rgb(204, 118, 185);
+}
 
 .Haupteil {
     font-family: Georgia;
@@ -24,13 +29,13 @@ header{
     width: 400px;
     height: 400px;
     margin: 20px;
-    border: 2px rgb(20, 91, 223);
+    border: 2px rgb(233, 90, 80);
     border-radius: 5px;
     transition: all 0.4s ease-in-out;
 }
 .Haupteil img:hover {
     transform: scale(1.1);
-    border-color: rgb(91, 171, 218)
+    border-color: rgb(236, 102, 68)
 }
 
     
