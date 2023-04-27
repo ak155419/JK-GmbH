@@ -8,17 +8,17 @@
 </head>
 <body>
     <h1>Bruttopreisrechner</h1>
-    <form action="">
+    <form name="bruttopreisrechner">
         <label for="mwst">Mehrwertsteuersatz</label>
         <input type="text" inputmode="decimal" name="mwst" value="0">
-        <br>
-        <label for="nettopreis">Nettopreis</label>
-        <input id="idNettopreis" type="text" inputmode="decimal" name="netto" value="0">
         <p></p>
-        <button id="idBruttoBerechnen">Berechnen</button>
-        <label id="idAusgabe"> Hier kommt die Ausgabe hin.</label>
+        <label for="nettopreis">Nettopreis</label>
+        <input id="idNettopreis" type="text" inputmode="decimal" name="nettopreis" value="0">
+        <p></p>
+        <button id="idBruttoBerechnen" name="berechnen">Berechnen</button>
+        <label id="id-ausgabe"> Hier kommt die Ausgabe hin.</label>
+        <p></p>
     </form>
-
 
     <script scr="script.js"></script>
 </body>
