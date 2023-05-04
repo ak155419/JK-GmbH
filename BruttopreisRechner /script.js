@@ -1,7 +1,7 @@
 const frmBruttorechner = window.document.bruttopreisrechner;
 const inpMwst = frmBruttorechner.mwst;
-const inpNettoPreis = frmBruttorechner.nettopreis;
-console.log(inpNettoPreis.value);
+const inpnettoPreis = frmBruttorechner.nettopreis;
+console.log(inpnettoPreis.value);
 
 
 
@@ -12,7 +12,7 @@ btnBerechnen.addEventListener("click", fBruttoPreisBerechnen);
 
 function fBruttoPreisBerechnen(event) {
     event.preventDefault();
-    const nettoPreis = parseFloat(inpNettoPreis.value);
+    const nettoPreis = parseFloat(inpnettoPreis.value);
     const mwst = parseFloat(inpMwst.value);
     ausgabe.innerHTML = (1+mwst/100)*nettoPreis;
 }
